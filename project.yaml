@@ -1,0 +1,68 @@
+# .project metadata for kagent
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+
+schema_version: "1.0.0"
+slug: "kagent"
+name: "kagent"
+description: "Kagent is an open source programming framework designed for DevOps and platform engineers to run AI agents in Kubernetes"
+type: "project"
+project_lead: "EItanya" # TODO: AUTO-DETECTED — please verify
+cncf_slack_channel: "#C08ETST0076" # TODO: AUTO-DETECTED — please verify
+# Also detected: "#kagent-dev", "#kagent" — please verify the correct channel
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-05-22T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/379" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kagent-dev/kagent"
+
+website: "https://kagent.dev/"
+
+artwork: "https://landscape.cncf.io/logos/kagent.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kagent-dev/kagent/blob/main/ADOPTERS.md"
+
+
+package_managers: # AUTO-DETECTED — please verify
+  go: "github.com/kagent-dev/kmcp"
+  npm: "kagent-website"
+  pypi: "slack-bot-template"
+
+
+security:
+  policy:
+    path: "https://github.com/kagent-dev/kagent/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kagent-dev/kagent/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kagent-dev/kagent/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kagent-dev/kagent/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kagent-dev/kagent/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kagent-dev/kagent/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Automation & Configuration"
+
+# CLOMonitor Score: 80/100
+# Documentation: 91 | License: 86 | Best Practices: 68 | Security: 72

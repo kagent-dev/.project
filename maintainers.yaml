@@ -1,0 +1,21 @@
+# Maintainer roster for kagent
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+maintainers:
+  - project_id: "kagent"
+    org: "kagent-dev"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - EItanya
+          - ilackarms
+          - iplay88keys
+          - jmhbh
+          - peterj
+          - supreme-gg-gg
+          - yuval-k
+          - christian-posta
+          - linsun
+          - dimetron
+          - antweiss
