@@ -22,7 +22,7 @@ repositories:
 
 website: "https://kagent.dev/"
 
-artwork: "https://landscape.cncf.io/logos/kagent.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kagent"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
